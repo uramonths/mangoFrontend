@@ -1,0 +1,118 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* ---------------------------------------------------
+|              STYLE NAVBAR                          |
+----------------------------------------------------- */
+.navbar {
+    border-bottom: 2px solid #5f626c;
+    background-color: white;
+}
+
+.brand-logo {
+    height: 40px;
+    margin-right: 1rem;
+}
+
+.navbar-brand {
+    color: #346c4a;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nav-link {
+    color: black !important;
+    margin-right: 1.5rem;
+}
+
+.navbar-toggler {
+    border-color: #28a745;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(40, 167, 69, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.navbar-toggler:hover,
+.navbar-toggler:focus {
+    border-color: #28a745;
+    outline: none;
+}
+
+.navbar-toggler-icon:hover {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(40, 167, 69, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.navbar-toggler:active {
+    border-color: #28a745;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.nav-link:hover,
+.nav-link:active,
+.nav-link.active {
+    color: #346c4a !important;
+    padding-bottom: 0.25rem !important;
+    border-bottom: 4px solid #346c4a !important;
+}
+
+/* ---------------------------------------------------
+|              STYLE REGISTRATION                    |
+----------------------------------------------------- */
+.regist {
+    background-color: #608557;
+    height: 100vh;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    box-sizing: border-box;
+}
+
+.card {
+    border-radius: 1rem;
+    max-width: 85%; 
+    width: 90%; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+}
+
+.card img {
+    width: 80%;
+}
+
+.card-body {
+    color: black;
+}
+
+.form-outline input {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 0.5rem;
+}
+
+.btn-login {
+    background-color: #f7b523;
+    color: #34222e;
+    width: 100%;
+    border: none;
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.btn-login:hover {
+    background-color: #a0bea0;
+}
